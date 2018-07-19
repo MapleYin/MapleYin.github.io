@@ -1,9 +1,11 @@
 ---
-title: Objective-c 对象模型
+title: Objective-C 对象模型
 description: ""
 tags: [iOS,Runtime]
 layout: post
 ---
+
+从 Objective-C 对象模型来了解一下在 iOS 里面，类是如何被创建以及属性、方法、成员变量等内存是如何分配，来了解运行时的部分类容。
 
 # 对象
 
