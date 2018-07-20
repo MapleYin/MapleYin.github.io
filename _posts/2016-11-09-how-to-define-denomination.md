@@ -4,7 +4,7 @@ description: "关于钱币组成的探讨"
 layout: post
 excerpt_separator: <!--more-->
 image:
-  feature: https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/head/photo-1500316124030-4cffa46f10f0.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDd7QZWHHEQWQ8eyD1lJfpnY7TdbNx2Xs2%26q-sign-time%3D1531967635%3B1531968535%26q-key-time%3D1531967635%3B1531968535%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D8c8f885a4ec8a46199a00ccdb7fee652197a16ee
+  feature: post/head/photo-1500316124030-4cffa46f10f0.jpeg
 ---
 
 之前和一个朋友聊天的时候提到关于钱币的面值怎么设定好，这里的好，是指怎么规划可以使得组成指定钱所需的平均张数最少。

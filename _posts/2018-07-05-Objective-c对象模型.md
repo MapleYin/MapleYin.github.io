@@ -53,7 +53,7 @@ struct objc_class : objc_object {
 
 通常的，我们经常简单的理解 `isa` 是对象指向自己类的一个指针，每个类又指向自己对应的元类。这里涉及一些方法调用相关知识，这里先不赘述。下面的图大致描述了类之间 `isa` 指针的关系。
 
-![relation of class](https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/class-meta-relative.jpg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDd7QZWHHEQWQ8eyD1lJfpnY7TdbNx2Xs2%26q-sign-time%3D1531967432%3B1531968332%26q-key-time%3D1531967432%3B1531968332%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D410e856d00fecb9e3094c7dab0e91503c07ba829)
+![relation of class](https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/class-meta-relative.jpg)
 
 `isa` 本质上是结构体 `isa_t`  定义如下：（针对 `__x86_64__` 架构下的定义）
 
@@ -87,7 +87,7 @@ union isa_t
 
 可以看到 `isa_t` 是一个 `union` 意味着 `isa_t`、 `cls`、`bits` 以及下面的结构体共用一块地址空间，总空间大小会占据 64 位地址空间。（结构体所占用空间最大）
 
-![relation of class](https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/isa_t_s.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDd7QZWHHEQWQ8eyD1lJfpnY7TdbNx2Xs2%26q-sign-time%3D1531967500%3B1531968400%26q-key-time%3D1531967500%3B1531968400%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D25c3f1a40bbe5a70b6cb917b5f416c1535a6d8e3)
+![relation of class](https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/isa_t_s.png)
 
 ## `isa` 初始化
 
@@ -162,7 +162,7 @@ isa.bits = ISA_MAGIC_VALUE;  // ISA_MAGIC_VALUE = 0x001d800000000001ULL
 
 此时转化成二进制后表示为：
 
-![relation of class](https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/isa_t_set.png?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDd7QZWHHEQWQ8eyD1lJfpnY7TdbNx2Xs2%26q-sign-time%3D1531967516%3B1531968416%26q-key-time%3D1531967516%3B1531968416%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D719555b1b98e6d17dce0e20a4d6b1527362338d6)
+![relation of class](https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/isa_t_set.png)
 
 看到 `magic` 被设置为 `111011` ，`indexed` 被设置为 `1` 。
 

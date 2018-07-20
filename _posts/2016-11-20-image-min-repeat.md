@@ -4,7 +4,7 @@ description: "怎样从一个平铺的图中找到最小重复的那个图？"
 layout: post
 excerpt_separator: <!--more-->
 image:
-  feature: https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/head/photo-1493407192204-530f0ce3d3d2.jpeg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDd7QZWHHEQWQ8eyD1lJfpnY7TdbNx2Xs2%26q-sign-time%3D1531967616%3B1531968516%26q-key-time%3D1531967616%3B1531968516%26q-header-list%3D%26q-url-param-list%3D%26q-signature%3D20d27c82740f07c812786ad64f550ae4a797f9df
+  feature: post/head/photo-1493407192204-530f0ce3d3d2.jpeg
 ---
 
 很多时候我们会看到一个大图是由很多很多重复出现的小图平铺而成的，就像我们人行道上的砖块，每一个砖块就是一个重复单元，然后很多砖块一起铺成人行道，于是每个砖块就可能是一个最小重复单元（具体情况得看每个砖块上的图形）。于是情况是这样的，给你一张很大的图，找出这个图片最小的那个重复单元，如果没有那整个大图就是一个最小重复单元。
@@ -25,7 +25,7 @@ HTML5的新标准，引入了canvas画布功能，具体不再多说。
 
 在开始之前，先确定一个思想，就是所给的图片既然是以一个小图平铺的，那么这个最小重复单元是有很多种情况的，但是只要我们确定了这个最小重复单元的长和宽就可以了。
 
-![demo]({{size.url}}/images/post/mini-repeat-01.jpg)
+![demo](https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/mini-repeat-01.jpg)
 
  
 
