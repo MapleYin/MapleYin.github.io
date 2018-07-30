@@ -4,7 +4,7 @@ description: "怎样从一个平铺的图中找到最小重复的那个图？"
 layout: post
 excerpt_separator: <!--more-->
 image:
-  feature: post/head/photo-1493407192204-530f0ce3d3d2.jpeg
+  feature: //image-1257141638.cos.ap-guangzhou.myqcloud.com/post/head/photo-1493407192204-530f0ce3d3d2.jpeg
 ---
 
 很多时候我们会看到一个大图是由很多很多重复出现的小图平铺而成的，就像我们人行道上的砖块，每一个砖块就是一个重复单元，然后很多砖块一起铺成人行道，于是每个砖块就可能是一个最小重复单元（具体情况得看每个砖块上的图形）。于是情况是这样的，给你一张很大的图，找出这个图片最小的那个重复单元，如果没有那整个大图就是一个最小重复单元。
