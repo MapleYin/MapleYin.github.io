@@ -46,6 +46,8 @@ image:
 > 解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。
 > ```
 
+<!--more-->
+
 这里是完全给出所有的走势数据，同时需要保证利润最大，所以这里可以把问题转化成，按数组顺序，数字变大了多少。
 
 ![stock-sample](https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/head/stock-sample.png)

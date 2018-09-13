@@ -36,6 +36,8 @@ image:
 >- 尽可能想出更多的解决方案，至少有三种不同的方法可以解决这个问题。
 >- 要求使用空间复杂度为 O(1) 的原地算法。
 
+<!--more-->
+
 由于需要使用空间复杂度为 `O(1)` 的原地算法，所以这里我们进行一次循环来依次替换。
 
 难点在于，怎么样确认数字移动到的下一个 `index` ？
@@ -110,7 +112,7 @@ index     operation
 ```swift
 // 计算最大公约数
 func mgn(_ num1: Int,_ num2: Int) -> Int {
-        return num2 != 0 ? Mgn(num2, num1%num2) : num1
+        return num2 != 0 ? mgn(num2, num1 % num2) : num1
     }
 func rotate(_ nums: inout [Int], _ k: Int) {
     if k == 0 {
