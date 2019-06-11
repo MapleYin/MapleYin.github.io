@@ -39,7 +39,7 @@ excerpt_separator: <!--more-->
 
 那么下面就分步：
 
-1. 排序
+- 排序
 
 ```swift
 costs.sort { (p1, p2) -> Bool in
@@ -47,7 +47,7 @@ costs.sort { (p1, p2) -> Bool in
 }
 ```
 
-2. 从小到大前 `N ` 个人去 `A` ，后 `N` 个人去 `B`
+- 从小到大前 `N ` 个人去 `A` ，后 `N` 个人去 `B`
 
 ```swift
 let maxCount = costs.count / 2
