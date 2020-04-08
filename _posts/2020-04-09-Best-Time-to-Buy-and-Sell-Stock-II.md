@@ -1,7 +1,7 @@
 ---
 title: Best Time to Buy and Sell Stock II
 description: "Say you have an array prices for which the ith element is the price of a given stock on day i."
-tags: [algorithms]
+tags: [algorithms,TIQ]
 layout: post
 ---
 
