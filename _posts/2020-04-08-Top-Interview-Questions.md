@@ -7,5 +7,6 @@ layout: post
 
 # Array
 
-1. Remove Duplicates from Sorted Array 💯
+1. [Remove Duplicates from Sorted Array](/Remove-Duplicates-from-Sorted-Array/) 💯
+2. [Best Time to Buy and Sell Stock II](/Best-Time-to-Buy-and-Sell-Stock-II) 💯
 
