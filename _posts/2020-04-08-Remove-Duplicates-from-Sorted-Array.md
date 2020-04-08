@@ -49,3 +49,31 @@ layout: post
 > }
 > ```
 
+关键思路：
+
+因为是排序好的数组，故我们只需要顺序循环替换即可，代码如下：
+
+```javascript
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates = function(nums) {
+    if (nums.length <= 1) {
+        return nums.length;
+    }
+
+    let cur = 0;
+    let next = 1;
+    let length = nums.length;
+    while (next < length) {
+        if (nums[cur] != nums[next]) {
+            cur += 1;
+            nums[cur] = nums[next];
+        }
+        ++next;
+    }
+    return cur + 1;
+}
+```
+
