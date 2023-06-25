@@ -16,8 +16,6 @@ export default hopeTheme({
 
   logo: "/avatar.jpg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
-
   docsDir: "src",
 
   // navbar
@@ -26,7 +24,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "我有最美好的初衷",
 
   displayFooter: true,
 
@@ -39,7 +37,6 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
     },
   },
 
