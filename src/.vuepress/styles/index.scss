@@ -1,1 +1,22 @@
 // place your custom styles here
+.active .icon {
+    color: white;
+}
+
+.vp-page .vp-blog-info-wrapper .vp-blogger-info,
+.vp-article-item,
+.vp-page .vp-blog-infos {
+    box-shadow: none;
+    border: solid 1px #eee;
+}
+
+.vp-page .vp-blog-info-wrapper .vp-blogger-info:hover,
+.vp-article-item:hover,
+.vp-page .vp-blog-infos:hover {
+    box-shadow: 0 0 3px #eee;
+}
+
+.vp-blog-mask::after {
+    background:black;
+    opacity: 0.5;
+}
