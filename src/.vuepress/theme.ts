@@ -54,7 +54,7 @@ export default hopeTheme({
     comment: {
       // You should generate and use your own comment service
       provider: "Waline",
-      serverURL: "https://c.yinheng.me",
+      serverURL: "https://vercel-1s92vnr79-mapleyin.vercel.app/",
     },
 
     // all features are enabled for demo, only preserve features you need here
