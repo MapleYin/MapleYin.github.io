@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://mapleyin.github.io/sitemap.xml
+Sitemap: https://yinheng.me/sitemap.xml
