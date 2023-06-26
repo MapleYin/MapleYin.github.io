@@ -3,7 +3,6 @@ title: 钱币面值怎么设定？
 description: "关于钱币组成的探讨"
 date: 2016-11-09
 article: false
-image: https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/head/photo-1500316124030-4cffa46f10f0.jpeg
 ---
 
 之前和一个朋友聊天的时候提到关于钱币的面值怎么设定好，这里的好，是指怎么规划可以使得组成指定钱所需的平均张数最少。

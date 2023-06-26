@@ -5,7 +5,6 @@ tag: [leetcode, array, Easy-Collection]
 date: 2018-09-13
 article: false
 category: algorithms
-image: https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/head/Contains-Duplicate.png
 ---
 
 > 给定一个整数数组，判断是否存在重复元素。

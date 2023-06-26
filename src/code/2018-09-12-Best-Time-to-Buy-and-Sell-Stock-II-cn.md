@@ -5,7 +5,6 @@ tag: [leetcode, array, Easy-Collection]
 date: 2018-09-12
 article: false
 category: algorithms
-image: https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/head/stock.jpg
 ---
 
 > 给定一个数组，它的第 *i* 个元素是一支给定股票第 *i* 天的价格。

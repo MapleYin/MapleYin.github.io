@@ -5,7 +5,6 @@ tag: [leetcode, array, Easy-Collection]
 date: 2018-09-12
 article: false
 category: algorithms
-image: https://image-1257141638.cos.ap-guangzhou.myqcloud.com/post/head/andrew-seaman-597968-unsplash.jpg
 ---
 
 > 给定一个排序数组，你需要在**原地**删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。

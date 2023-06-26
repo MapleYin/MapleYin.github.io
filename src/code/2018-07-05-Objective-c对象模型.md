@@ -2,7 +2,7 @@
 title: Objective-C 对象模型
 description: ""
 article: false
-tags: [iOS, Runtime]
+tag: [iOS, Runtime]
 date: 2018-07-05
 ---
 
