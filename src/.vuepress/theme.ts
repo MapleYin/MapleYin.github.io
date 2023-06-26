@@ -5,7 +5,7 @@ import sidebar from "./sidebar.js";
 // const MR_HOPE_AVATAR =
 
 export default hopeTheme({
-  hostname: "https://mapleyin.github.io",
+  hostname: "yinheng.me",
 
   author: {
     name: "Maple Yin",

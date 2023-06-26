@@ -110,5 +110,5 @@ HTML5的新标准，引入了canvas画布功能，具体不再多说。
 
 大致的思路就是如此。
 
-具体代码实现demo：[http://demo.maple.im/min-repeat/](http://demo.maple.im/min-repeat/)
+具体代码实现demo：[Demo](https://stplayproject.github.io/phpSub/demo/min-repeat/)
 

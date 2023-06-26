@@ -11,7 +11,7 @@ article: false
 
 ### 算法的正确性
 
-因为下面的所有结论都是根据这个算法算出的结果得出来，所以算法的正确性就最为关键。这个是Demo：[http://demo.maple.im/coins/](http://demo.maple.im/coins/)。有兴趣的同学可以去试试，看算法是否正确。这个程序是根据你输入的面值的种类，然后生成1到你指定的一个数字之前所有数字的最优（张数最小）组合方式。如果你同意这个算法，那么就请继续往下看，如果觉得有错误……告诉我，我不打你。
+因为下面的所有结论都是根据这个算法算出的结果得出来，所以算法的正确性就最为关键。这个是Demo：[Demo](https://stplayproject.github.io/phpSub/demo/coins/)。有兴趣的同学可以去试试，看算法是否正确。这个程序是根据你输入的面值的种类，然后生成1到你指定的一个数字之前所有数字的最优（张数最小）组合方式。
 
 ### 无找钱环节
 
@@ -19,15 +19,15 @@ article: false
 
 下面列出前9名组合（第十名并列太多就算了）：
 
-1. [1,5,16,23,32](http://demo.maple.im/coins/?1,5,16,23,32)    平均张数：3.323张
-2. [1,3,11,27,34](http://demo.maple.im/coins/?1,3,11,27,34)    平均张数：3.343张
-3. [1,4,9,24,35](http://demo.maple.im/coins/?1,4,9,24,35)      平均张数：同上
-4. [1,4,13,21,36](http://demo.maple.im/coins/?1,4,13,21,36)    平均张数：同上
-5. [1,4,14,25,33](http://demo.maple.im/coins/?1,4,14,25,33)    平均张数：同上
-6. [1,5,12,20,37](http://demo.maple.im/coins/?1,5,12,20,37)    平均张数：同上
-7. [1,5,12,28,41](http://demo.maple.im/coins/?1,5,12,28,41)    平均张数：同上
-8. [1,6,10,25,32](http://demo.maple.im/coins/?1,6,10,25,32)    平均张数：同上
-9. [1,8,11,28,30](http://demo.maple.im/coins/?1,8,11,28,30)    平均张数：同上
+1. [1,5,16,23,32](https://stplayproject.github.io/phpSub/demo/coins/?1,5,16,23,32)    平均张数：3.323张
+2. [1,3,11,27,34](https://stplayproject.github.io/phpSub/demo/coins/?1,3,11,27,34)    平均张数：3.343张
+3. [1,4,9,24,35](https://stplayproject.github.io/phpSub/demo/coins/?1,4,9,24,35)      平均张数：同上
+4. [1,4,13,21,36](https://stplayproject.github.io/phpSub/demo/coins/?1,4,13,21,36)    平均张数：同上
+5. [1,4,14,25,33](https://stplayproject.github.io/phpSub/demo/coins/?1,4,14,25,33)    平均张数：同上
+6. [1,5,12,20,37](https://stplayproject.github.io/phpSub/demo/coins/?1,5,12,20,37)    平均张数：同上
+7. [1,5,12,28,41](https://stplayproject.github.io/phpSub/demo/coins/?1,5,12,28,41)    平均张数：同上
+8. [1,6,10,25,32](https://stplayproject.github.io/phpSub/demo/coins/?1,6,10,25,32)    平均张数：同上
+9. [1,8,11,28,30](https://stplayproject.github.io/phpSub/demo/coins/?1,8,11,28,30)    平均张数：同上
 
 程序算出最优的组合是1,5,16,23,32，平均张数是3.23小于我们现在的4.24张。（点击每个结果看看具体组合方式）
 
@@ -37,14 +37,14 @@ article: false
 
 好了，在加入找钱环节后我们日常的组合1,5,10,20,50,100最后计算出平均每个数额需要：3.15张。确实是比之前没加入找钱环节的4.24张少了点。但是通过电脑计算其他组合，发现还是有1551929总组合优于我们日常用的组合（话说找这些组合，我的电脑也花了25分钟！）。老规矩还是列出前9名组合（好吧！并列第一的就有9个了）：
 
-1. [1,4,24,39,45](http://demo.maple.im/coins/?1,4,24,39,45)          平均张数：2.67张
-2. [1,5,22,40,47](http://demo.maple.im/coins/?1,5,22,40,47)          同上
-3. [1,8,20,42,47](http://demo.maple.im/coins/?1,8,20,42,47)          同上
-4. [1,9,22,37,49](http://demo.maple.im/coins/?1,9,22,37,49)          同上
-5. [1,12,19,45,48](http://demo.maple.im/coins/?1,12,19,45,48)        同上
-6. [1,14,33,37,45](http://demo.maple.im/coins/?1,14,33,37,45)        同上
-7. [1,15,23,44,48](http://demo.maple.im/coins/?1,15,23,44,48)        同上
-8. [1,22,31,41,48](http://demo.maple.im/coins/?1,22,31,41,48)        同上
-9. [1,28,32,41,47](http://demo.maple.im/coins/?1,28,32,41,47)        同上
+1. [1,4,24,39,45](https://stplayproject.github.io/phpSub/demo/coins/?1,4,24,39,45)          平均张数：2.67张
+2. [1,5,22,40,47](https://stplayproject.github.io/phpSub/demo/coins/?1,5,22,40,47)          同上
+3. [1,8,20,42,47](https://stplayproject.github.io/phpSub/demo/coins/?1,8,20,42,47)          同上
+4. [1,9,22,37,49](https://stplayproject.github.io/phpSub/demo/coins/?1,9,22,37,49)          同上
+5. [1,12,19,45,48](https://stplayproject.github.io/phpSub/demo/coins/?1,12,19,45,48)        同上
+6. [1,14,33,37,45](https://stplayproject.github.io/phpSub/demo/coins/?1,14,33,37,45)        同上
+7. [1,15,23,44,48](https://stplayproject.github.io/phpSub/demo/coins/?1,15,23,44,48)        同上
+8. [1,22,31,41,48](https://stplayproject.github.io/phpSub/demo/coins/?1,22,31,41,48)        同上
+9. [1,28,32,41,47](https://stplayproject.github.io/phpSub/demo/coins/?1,28,32,41,47)        同上
 
 不过看结果发现5~9的结果很奇怪，10元以下的是不是略蛋疼。（点击每个结果看看具体组合方式）
