@@ -98,3 +98,56 @@ title: 占卜师
 desc: 每个夜晚，你要选择两名玩家：你会得知他们之中是否有恶魔。会有一名善良玩家始终被你的能力当作恶魔。
 logo: https://img.bct.enmo.fun/167a0ed8-bc42-4f7c-8dbf-625f18993d70.png
 ```
+
+## 结构化
+
+### 获取一个数字
+
+```ts
+interface {
+    number: number;
+}
+```
+
+### 给定一个角色/多名角色
+
+```ts
+interface {
+    character: string;
+}
+
+interface {
+    characters: string[];
+}
+```
+
+### 选择一个玩家/多名玩家
+
+```ts
+interface {
+    player: IPlayer;
+}
+
+interface {
+    players: IPlayer[];
+}
+```
+
+### 得到一个结果
+
+```ts
+interface Result {
+    result: boolean
+}
+```
+
+## 定义一个技能
+
+### 技能数据结构
+
+```ts
+interface Skill<T> {
+    name: string;
+    payload: T; /// 针对不同技能，可能对应有不同的 payload
+}
+```
