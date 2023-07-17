@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as o,a as c}from"./app-559df010.js";const n={},_=c("p",null,"游戏过程中分白天和黑夜阶段，每个阶段有不同的角色发挥不同的能力，然后每个剧本本身针对角色的执行顺序也有规定。",-1),s=[_];function r(l,a){return t(),o("div",null,s)}const f=e(n,[["render",r],["__file","timeline.html.vue"]]);export{f as default};
