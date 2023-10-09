@@ -86,7 +86,7 @@ comments:
   # utterances settings › https://utteranc.es/
   utterances:
     repo: MapleYin/MapleYin.github.io # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+    issue_term: url # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
@@ -112,7 +112,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://yinheng.me"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
