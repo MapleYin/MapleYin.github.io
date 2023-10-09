@@ -1,0 +1,36 @@
+
+#talks {
+    .date {
+        line-height: 1;
+    }
+    .year {
+        font-size: 48px;
+    }
+    .month {
+        background-color:#0056B2;
+        color: #fff;
+        padding: 2px 5px;
+    }
+    .day {
+        font-size: 36px;
+        color: #0056B2;
+    }
+    .week {
+        color: #aaa;
+    }
+
+    .content {
+        margin: 10px 0 0;
+        p {
+            margin-bottom: 5px;
+            font-size: 1rem;
+        }
+    }
+
+    .meta {
+        background-color: #9698E2;
+        padding: 0 5px;
+        color: white;
+        font-size: 12px;
+    }
+}
