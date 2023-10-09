@@ -15,13 +15,13 @@ layout: page
     {% if cur_year != last_year %}
     {% unless forloop.first %}</ul>{% endunless %}
 
-    <time class="year lead d-block">{{ cur_year }}</time>
+    <time class="year lead d-block fs-1">{{ cur_year }}</time>
     {{ '<ul class="list-unstyled">' }}
 
         {% assign last_year = cur_year %}
         {% endif %}
 
-        <li class="d-flex border-bottom">
+        <li class="d-flex border-bottom border-primary border-opacity-25">
             <time class="d-flex flex-column align-items-center">
                 <span class="date month text-uppercase rounded">{{ post.date | date: '%b' }}</span>
                 <span class="date day">{{ post.date | date: '%d' }}</span>
