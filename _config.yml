@@ -19,7 +19,7 @@ title: Yin Heng # the main title
 tagline: 不选大的怎么能赢 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  这是一个记录我是如何虚度年华的位置
+  这是一个记录我是如何虚度年华的地方
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -44,7 +44,7 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
+google_site_verification: Zod4Jhs6cl2f0QHQ_bIieYZaufKAnTL_lUH6eOuCgz0 # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
