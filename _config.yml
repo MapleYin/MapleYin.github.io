@@ -133,6 +133,7 @@ collections:
     sort_by: order
   talks:
     output: true
+    sort_by: title
 
 defaults:
   - scope:
