@@ -2,6 +2,7 @@
 title: "Text Fragments"
 categories: ['Technology', 'Front End']
 tags: [standard]
+image: https://img.idea.enmo.fun/85c1239a-8bc7-428e-a4e4-c15986ce56a5
 ---
 
 ## Hash Tag
