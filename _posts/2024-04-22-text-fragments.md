@@ -2,7 +2,7 @@
 title: "Text Fragments"
 categories: ['Technology', 'Front End']
 tags: [standard]
-image: https://img.idea.enmo.fun/85c1239a-8bc7-428e-a4e4-c15986ce56a5
+image: https://img-1257141638.cos.ap-beijing.myqcloud.com/f56630a7-8a50-4eda-a2da-f40b8c7a1e8a
 ---
 
 ## Hash Tag
@@ -30,9 +30,7 @@ image: https://img.idea.enmo.fun/85c1239a-8bc7-428e-a4e4-c15986ce56a5
 
 ### 语法
 
-```url
-https://example.com#:~:text=[prefix-,]textStart[,textEnd][,-suffix]
-```
+`https://example.com#:~:text=[prefix-,]textStart[,textEnd][,-suffix]`
 
 #### `:~:`
 
@@ -50,27 +48,23 @@ https://example.com#:~:text=[prefix-,]textStart[,textEnd][,-suffix]
 
 高亮位置结束。一般情况下只需要提供 `textStart` 。不过，当需要高亮的文字比较长的时候，就可以提供长文本的开始文字和结束文字以此来减少 URL 的长度。
 
-```
-As ominous music plays, a broad-faced, beady-eyed man disguises himself as a street fashion photographer, a lab technician, a businessman and a food delivery driver – he even sets up an online honey trap – to glean sensitive state secrets in various places and industries.
-```
+比如下面一段文字：
 
-```URL
-https://example.com#:~:text=As%20ominous%20music,places%20and%20industries.
-```
+> As ominous music plays, a broad-faced, beady-eyed man disguises himself as a street fashion photographer, a lab technician, a businessman and a food delivery driver – he even sets up an online honey trap – to glean sensitive state secrets in various places and industries.
+
+可以使用如下 URL 来匹配：
+
+`https://example.com#:~:text=As%20ominous%20music,places%20and%20industries.`
 
 #### `prefix-`
 
 高亮位置前缀，一般用于区分如果高亮的文字在文章里面出现的位置比较多，就可以用前/后缀的方式给区分出来。
 
-```
-As ominous music plays, a broad-faced, beady-eyed man disguises himself as a street fashion photographer, a lab technician, a businessman and a food delivery driver – he even sets up an online honey trap – to glean sensitive state secrets in various places and industries.
-```
+> As ominous music plays, a broad-faced, beady-eyed man disguises himself as a street fashion photographer, a lab technician, a businessman and a food delivery driver – he even sets up an online honey trap – to glean sensitive state secrets in various places and industries.
 
 如想要高亮 “**a** lab technician” 中的 `a`：
 
-```URL
-https://example.com#:~:text=street%20fashion%20photographer%2C-,a,-lab%20technician%2C%20a
-```
+`https://example.com#:~:text=street%20fashion%20photographer%2C-,a,-lab%20technician%2C%20a`
 
 #### `-suffix`
 
@@ -83,7 +77,8 @@ https://example.com#:~:text=street%20fashion%20photographer%2C-,a,-lab%20technic
 
 ```css
 ::target-text {
-  background-color: blue;
-  color: white;
+    background-color: blue;
+    color: white;
 }
 ```
+
