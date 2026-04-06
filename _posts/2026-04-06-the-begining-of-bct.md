@@ -1,6 +1,6 @@
 ---
 title: "从血染钟楼到染魔典助手：一个说书人工具的诞生"
-categories: ['血染钟楼', '背景故事']
+categories: ['染魔典助手', '背景故事']
 image: https://img.yinheng.me/uPic/121jd96hv0ywk2es2tsqwxh91qsgbte0.jpeg
 ---
 
