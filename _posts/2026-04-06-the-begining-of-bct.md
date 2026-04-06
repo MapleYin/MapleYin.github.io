@@ -12,32 +12,9 @@ image: https://img.yinheng.me/uPic/121jd96hv0ywk2es2tsqwxh91qsgbte0.jpeg
 不过，多次担任说书人的经历，也让我从“规则一知半解”走向“逐步熟悉”的过程中踩了不少坑。比如出现过一些低级错误：忘记配置男爵导致外来者数量不对；夜晚唤醒流程里反复确认“下一位该叫谁”，还要同时记录状态。对当时还不熟练的我来说，这套流程非常耗神。 
 那时我就萌生了一个想法：做一个说书人记录工具，让自己在主持时可以更优雅地完成通知与记录。于是我先做了一个仅供自己使用的 iOS 手机端应用，大致效果如下：
 
-<div style='display:grid; grid-template-columns: repeat(4, minmax(0, 1fr));'>
-  <figure style='text-align:center;'>
-		<img src='https://img.yinheng.me/uPic/vhaap3svksa0fbz43zg42r4r59p0k0pq.png' />
-    <figcaption style='font-size: 14px; color: grey;'>
-      角色选择
-    </figcaption>
-  </figure>
-  <figure style='text-align:center;'>
-		<img src='https://img.yinheng.me/uPic/e8m7hc1sx4m5v4jk8eyc126t8r59kbvn.png' />
-    <figcaption style='font-size: 14px; color: grey;'>
-      角色展示
-    </figcaption>
-  </figure>
-  <figure style='text-align:center;'>
-		<img src='https://img.yinheng.me/uPic/47wy1pg7sd7kqk970sgnjdxzxc4fthr8.png' />
-    <figcaption style='font-size: 14px; color: grey;'>
-      行动列表
-    </figcaption>
-  </figure>
-  <figure style='text-align:center;'>
-		<img src='https://img.yinheng.me/uPic/85hw8re27qag3h2e3pz9kx8faw25k5b9.png' />
-    <figcaption style='font-size: 14px; color: grey;'>
-      信息配置
-    </figcaption>
-  </figure>
-</div>
+| ![角色选择](https://img.yinheng.me/uPic/vhaap3svksa0fbz43zg42r4r59p0k0pq.png) | ![角色展示](https://img.yinheng.me/uPic/e8m7hc1sx4m5v4jk8eyc126t8r59kbvn.png) | ![行动列表](https://img.yinheng.me/uPic/47wy1pg7sd7kqk970sgnjdxzxc4fthr8.png) | ![信息配置](https://img.yinheng.me/uPic/85hw8re27qag3h2e3pz9kx8faw25k5b9.png) |
+| --- | --- | --- | --- |
+| 角色选择 | 角色展示 | 行动列表 | 信息配置 |
 
 不过它本质上仍是单机工具，说书人依然要按实体魔典流程推进。某种意义上，它只是一个对新手说书人更友好的辅助器，主要解决了三件事：
 
@@ -45,32 +22,9 @@ image: https://img.yinheng.me/uPic/121jd96hv0ywk2es2tsqwxh91qsgbte0.jpeg
 2. 直接列出每个夜晚的行动顺序。  
 3. 用图形化方式提示各角色能力的执行要点，降低操作失误。
 
-<div style='display:grid; grid-template-columns: repeat(4, minmax(0, 1fr));'>
-  <figure style='text-align:center;'>
-		<img src='https://img.yinheng.me/uPic/cqv718bbwfg04f66794cjcxqdt8rrzjg.png' />
-    <figcaption style='font-size: 14px; color: grey;'>
-      完整配置
-    </figcaption>
-  </figure>
-  <figure style='text-align:center;'>
-		<img src='https://img.yinheng.me/uPic/beygnennwmgq4jq89pdwep20qd7av1hh.png' />
-    <figcaption style='font-size: 14px; color: grey;'>
-      信息展示
-    </figcaption>
-  </figure>
-  <figure style='text-align:center;'>
-		<img src='https://img.yinheng.me/uPic/j8a7xhyz8fwe08rwfd7ewr40wvtrymkg.png' />
-    <figcaption style='font-size: 14px; color: grey;'>
-      提名/猎杀
-    </figcaption>
-  </figure>
-  <figure style='text-align:center;'>
-		<img src='https://img.yinheng.me/uPic/gbnd5g3x0v1s7p6hdppefrcpxyxgf36e.png' />
-    <figcaption style='font-size: 14px; color: grey;'>
-      处决
-    </figcaption>
-  </figure>
-</div>
+| ![完整配置](https://img.yinheng.me/uPic/cqv718bbwfg04f66794cjcxqdt8rrzjg.png) | ![信息展示](https://img.yinheng.me/uPic/beygnennwmgq4jq89pdwep20qd7av1hh.png) | ![提名/猎杀](https://img.yinheng.me/uPic/j8a7xhyz8fwe08rwfd7ewr40wvtrymkg.png) | ![处决](https://img.yinheng.me/uPic/gbnd5g3x0v1s7p6hdppefrcpxyxgf36e.png) |
+| --- | --- | --- | --- |
+| 完整配置 | 信息展示 | 提名/猎杀 | 处决 |
 
 当时的实现方式，是针对每个角色能力“量身定做”一套从文案到配置界面的逻辑：按不同场景枚举所需输入和展示形式。对于“灾祸滋生”这种规则较明确、复杂判断较少的剧本，这套方案在当时是够用的。
 
