@@ -37,7 +37,7 @@ image: https://img.yinheng.me/uPic/121jd96hv0ywk2es2tsqwxh91qsgbte0.jpeg
       信息配置
     </figcaption>
   </figure>
-<div>
+</div>
 
 不过它本质上仍是单机工具，说书人依然要按实体魔典流程推进。某种意义上，它只是一个对新手说书人更友好的辅助器，主要解决了三件事：
 
@@ -70,7 +70,7 @@ image: https://img.yinheng.me/uPic/121jd96hv0ywk2es2tsqwxh91qsgbte0.jpeg
       处决
     </figcaption>
   </figure>
-<div>
+</div>
 
 当时的实现方式，是针对每个角色能力“量身定做”一套从文案到配置界面的逻辑：按不同场景枚举所需输入和展示形式。对于“灾祸滋生”这种规则较明确、复杂判断较少的剧本，这套方案在当时是够用的。
 
