@@ -24,7 +24,7 @@ image: https://img.yinheng.me/uPic/121jd96hv0ywk2es2tsqwxh91qsgbte0.jpeg
 
 | ![完整配置](https://img.yinheng.me/uPic/cqv718bbwfg04f66794cjcxqdt8rrzjg.png) | ![信息展示](https://img.yinheng.me/uPic/beygnennwmgq4jq89pdwep20qd7av1hh.png) | ![提名/猎杀](https://img.yinheng.me/uPic/j8a7xhyz8fwe08rwfd7ewr40wvtrymkg.png) | ![处决](https://img.yinheng.me/uPic/gbnd5g3x0v1s7p6hdppefrcpxyxgf36e.png) |
 | --- | --- | --- | --- |
-| 完整配置 | 信息展示 | 提名/猎杀 | 处决 |
+| 完整配置 | 信息展示 | 提名/猎杀 | 处决玩家 |
 
 当时的实现方式，是针对每个角色能力“量身定做”一套从文案到配置界面的逻辑：按不同场景枚举所需输入和展示形式。对于“灾祸滋生”这种规则较明确、复杂判断较少的剧本，这套方案在当时是够用的。
 
